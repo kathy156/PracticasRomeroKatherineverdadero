@@ -6,10 +6,12 @@
     <title>Pedido Especial</title>
 </head>
 <body>
-    <h1>Página de reserva de viajes</h1>
-
+    <h1 align="center"><font color="blue">Página de reserva de viajes</font></h1>
+<hr color="black" width="80%" size="6">
     <form>
+    
         <fieldset>
+            
             <legend>Datos personales</legend>
   <label for="fname">Nombres:</label><br>
   <input type="text" id="fname" name="fname" value="Nombre"><br>
@@ -24,19 +26,35 @@
     <legend>Datos del viaje</legend>
  <label for="correo">Correo electrónico:</label>
  <input Type="email" id="correo" name="correo" placeholder="examenple@email.com">
+
 </br>
 <br>
- <label for="Cantidad">Cantidad de personas(between 1 and 5):</label>
+ <label for="Cantidad">Cantidad de personas(1 hasta 5):</label>
   <input type="number" id="Cantidad" name="Cantidad" min="1" max="5" step="1"><br>
   <label for="Teléfono">Número de telefono</label>
-  <input type="number" id="Teléfono" name="Teléfono"><br>
-  <label for="Solicitar">Solicitar el lugar de destino:</label><br>
-  <select name="Solicitar" id="Solicitar"></select>
+  <input type="number" id="Teléfono" name="Teléfono">
+  <br><br>
+  <label for="Seleción">Solicitar el lugar de destino:</label><br>
+  <select id="Seleción" name="Seleción">
  <option value="Lauterbrunnen">Lauterbrunnen</option>
  <option value="Florencia">Florencia</option>
  <option value="Barcelona">Barcelona</option>
- <option value="Venencia">Venencia</option>
+ <option value="Venencia" >Venencia</option>
+</select>
+
+<br><br>
+<label for="Origen">Lugar de Origen:</label><br>
+<input type="text" id="Origen" name="Origen" value="San Salvador" readonly>
+<br><br>
+<label for="Fecha de salida">Fecha de salida:</label>
+<input type="Date" id="Fecha de salidad" name="Fecha salida" required>
+<br>
+<label for="Fecha de regreso">Fecha de regreso:</label>
+<input type="date" id="Fecha de regreso" name="Fecha de regreso" required>
 </fieldset>
+
+<input type="submit" value="registrarse">
+ <input type="reset" value="Borrar">
 
 
     </form>
