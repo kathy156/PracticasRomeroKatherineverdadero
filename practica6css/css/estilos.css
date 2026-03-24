@@ -22,3 +22,8 @@ img{
 width: 75%;
 height: 200px;
 }
+
+.oculto{
+    /*visibility: hidden;*/
+    display: none;
+}
