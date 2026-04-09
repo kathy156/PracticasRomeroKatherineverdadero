@@ -1,14 +1,14 @@
-/* IMPORTACIÃ“N DE FUENTES (Google Fonts)*/
+
 @import
 url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Special+Elite&display=swap')
 ;
-/* RESET BÃSICO (Primeros estilos) */
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-/* ESTILOS GENERALES (Selector de etiqueta)*/
+
 body {
 font-family: 'Inter', sans-serif;
 background-image: url(../img/c79ea44416b423b889fff5ff1240c0e3.jpg);
@@ -17,16 +17,14 @@ color: #333;
 line-height: 1.6;
 }
 
-/* =========================
-HEADER Y NAVEGACIÃ“N
-========================= */
+
 header {
 background-color: #2b270b81;
 color: #fff;
 padding: 10px;
-position: sticky; /* Posicionamiento sticky */
+position: sticky; 
 top: 0;
-z-index: 1000; /*Este elemento estarÃ¡ muy por encima de cualquier otro*/
+z-index: 1000;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -34,14 +32,14 @@ justify-content: space-evenly;
 }
 
 .titulo {
-font-family: 'Special+Elite', cursive; /* Fuente tipo mÃ¡quina de escribir */
+font-family: 'Special+Elite', cursive; 
 letter-spacing: 5px;
 text-align: center;
 margin-bottom: 10px;
 max-height:max-content;
 font-size: 1.4rem;
 }
-/* Flexbox para menÃº */
+
 .menu {
 display: flex;
 justify-content: center;
@@ -61,14 +59,14 @@ transition: 0.3s;
 background-color: #c0b73d;
 }
 
-/*MAIN Y SECCIONES */
+
 main {
 width: 85%;
 max-width: 1200px;
-margin: auto; /*mismo margen a la izquierda y derecha*/
+margin: auto; 
 }
 section {
-margin: 40px 0; /*Separar cada secciÃ³n*/
+margin: 40px 0; 
 padding: 20px;
 background-color: #ffffffd5;
 border-radius: 10px;
@@ -77,7 +75,6 @@ box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 
 
 
-/* ID selector */
 #s1, #s2, #s3, #s4, #s5 {
 margin-bottom: 15px;
 color: #584343;
@@ -87,7 +84,7 @@ text-align: center;
 .imgpeq {
 border: solid white 8px;
 margin: 35px 0;
-float: right; /*que el texto envuelva la imagen*/
+float: right; 
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
@@ -97,18 +94,14 @@ table,th,td{
     padding:8px;
 }
 
-/* =========================
-LISTAS
-========================= */
+
 ul, ol {
 margin-left: 20px;
 }
 li {
 margin-bottom: 8px;
 }
-/* =========================
-TABLA (Box model)
-========================= */
+
 .ficha table {
 width: 100%;
 border-collapse: collapse;
@@ -121,9 +114,7 @@ padding: 10px;
 background-color: rgb(69, 58, 58);
 color: white;
 }
-/* =========================
-FORMULARIO
-========================= */
+
 .centrado{
 text-align: center;
 }
@@ -141,7 +132,7 @@ border: 1px solid #ccc;
 border-radius: 5px;
 }
 
-/* BotÃ³n */
+
 input[type="submit"] {
 background-color: rgb(69, 58, 58);
 color: white;
@@ -152,12 +143,12 @@ margin-top: 10px;
 input[type="submit"]:hover {
 background-color: #4b3d0c;
 }
-/* GALERÃA (Grid + Flexbox alternativo) */
+
 .galeria {
 display: flex;
 flex-direction: column;
 gap: 10px;
-justify-content: center;
+justify-content: space-between;
 }
 .contenedor-galeria{
 display: flex;
@@ -170,7 +161,7 @@ justify-content: center
 .galeria img {
 width: 30%;
 height: 300px;
-object-fit: cover; /* overflow control */
+object-fit: cover; 
 border-radius: 10px;
 transition: transform 0.3s;
 }
@@ -178,9 +169,7 @@ transition: transform 0.3s;
 transform: scale(1.1);
 }
 
-/* =========================
-FOOTER
-========================= */
+
 footer {
 text-align: center;
 padding: 20px;
