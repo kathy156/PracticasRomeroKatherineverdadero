@@ -148,15 +148,16 @@ background-color: #4b3d0c;
 display: flex;
 flex-direction: column;
 gap: 10px;
-justify-content: space-between;
+justify-content:center;
 }
+
 .contenedor-galeria{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 gap: 10px;
 align-content: center;
-justify-content: center
+justify-content: space-between;
 }
 .galeria img {
 width: 30%;
