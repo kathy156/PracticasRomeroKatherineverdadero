@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+//Declare variables
+let nota1, nota2, nota3, NombreCompleto, promedio;
+//Use prompt para pedir la info 
+// y guarde en las variables 
+nota1 = Number(prompt(" Ingresar primera nota:"));
+nota2 = Number(prompt ("Ingresar segunda nota:"));
+nota3 = Number(prompt ("Ingresar tercera nota: "));
+NombreCompleto = prompt("Ingrese el nombre completo:");
+//Realice la operación
+promedio  = (nota1*0.30) + (nota2*0.35) + (nota3*0.35);
+//Muestra el resultados con un document.write()
+ document.write("la nota final de "+ NombreCompleto +"es" + promedio);
+
+</script>
+
+
+</body>
+</html>
